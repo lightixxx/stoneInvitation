@@ -195,3 +195,10 @@ html,body {
 	margin-right: 5px;
 }
 
+footer {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 14px;
+	font-weight: 200;
+	color: #ccc
+}
