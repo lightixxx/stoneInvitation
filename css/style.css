@@ -75,7 +75,7 @@ html,body {
 }
 .place .container div {
 	margin: 10px 100px;
-	background: #fff;
+	background: #ccc;
 	height: 1px;
 }
 .place h4 {
@@ -198,7 +198,7 @@ html,body {
 footer {
 	text-align: center;
 	padding: 20px 0;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 200;
 	color: #ccc
 }
