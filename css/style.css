@@ -70,7 +70,7 @@ html,body {
 .place:before {
 	content: '';
 	display: inline-block;
-	margin-top: 10vh;
+	margin: 10vh 0;
 	height: 80vh;
 	width: 100vw;
 	top: 0;
