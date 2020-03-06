@@ -80,6 +80,7 @@ html,body {
 	right: 0;
 	position: fixed;
 	background-image: url(../images/section2.jpg);
+	background-color: #030303;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
