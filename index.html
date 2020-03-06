@@ -22,6 +22,10 @@
 	
 	<!-- Map -->
 	<script type="text/javascript" src="./js/kakaoMap.js"></script>
+	
+	<!-- aos -->
+	<link href="./css/aos.css" rel="stylesheet">
+	<script src="./js/aos.js"></script>
 </head>
 
 <body>
@@ -75,7 +79,8 @@
 		</div>
 	</div>
 
-	<div class="invitation">
+	<div class="invitation" data-aos="fade-up"
+     data-aos-duration="3000">
 		<div class="container">
 			<h4 class="invi_title">작가의 말</h4>
 			<div class="line"></div>
@@ -83,10 +88,12 @@
 			<h5>- 강 민 성 -</h5>
 		</div>
 	</div>
-	<div class="calendar">
+	<div class="calendar" data-aos="fade-up"
+     data-aos-duration="3000">
 		<img src="./images/calendar03.jpg" alt="전시 일정">
 	</div>
-	<div class="location">
+	<div class="location" data-aos="fade-up"
+     data-aos-duration="3000">
 		<div class="container">
 			<h4>오시는 길</h4>
 			<p>서울시 종로구 인사동길 56 갤러리 인사아트 3F</p>
@@ -105,9 +112,11 @@
 			</ul>
 		</div>
 	</div>
-	<footer>
+	<footer data-aos="fade-up"
+     data-aos-duration="3000">
 		<p>&copy; Kang Min Seong</p>
 	</footer>
 	<script src="js/main.js"></script>	
+	<script>AOS.init();</script>
 </body>
 </html>
