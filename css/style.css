@@ -70,16 +70,16 @@ html,body {
 .place:before {
 	content: '';
 	display: block;
-	padding: 10vh 0;
 	height: 100vh;
 	width: 100vw;
-	top: 0;
-	bottom: 0;
+	top: 10vh;
+	bottom: 10vh;
 	left: 0;
 	right: 0;
 	position: fixed;
-	background-image: url(../images/section2.jpg);
 	background-color: #030303;
+	background-image: url(../images/section2.jpg);
+	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
