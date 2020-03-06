@@ -23,7 +23,7 @@ html,body {
 	height: 20vh;
 	background: #fff;
 	top: 0;
-	position: absolute;
+	position: fixed;
 	z-index: -5;
 }
 .mainTitle p{
@@ -234,6 +234,6 @@ footer:after {
 	height: 20vh;
 	background: #fff;
 	bottom: 0;
-	position: absolute;
+	position: fixed;
 	z-index: -5;
 }
