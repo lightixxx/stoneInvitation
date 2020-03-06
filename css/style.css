@@ -16,6 +16,17 @@ html,body {
 	position: relative;
 	background: #fff;
 }
+.contents:after {
+	content: '';
+	width: 100vw;
+	background: #fff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: -5;
+}
 .mainTitle p{
 	letter-spacing: -0.2px;
 	font-size: 3vw;
@@ -72,14 +83,12 @@ html,body {
 	display: block;
 	height: 100vh;
 	width: 100vw;
-	top: 10vh;
-	bottom: 10vh;
+	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	position: fixed;
-	background-color: #030303;
 	background-image: url(../images/section2.jpg);
-	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -216,5 +225,17 @@ footer {
 	padding: 20px 0;
 	font-size: 12px;
 	font-weight: 200;
-	color: #ccc
+	color: #ccc;
+	position: relative;
+}
+footer:after {
+	content: '';
+	width: 100vw;
+	background: #fff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: -5;
 }
