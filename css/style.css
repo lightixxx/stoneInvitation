@@ -11,8 +11,10 @@ html,body {
 
 
 .contents {
-	margin-top: 30px;
+/*	margin-top: 30px;*/
+	padding-top: 30px;
 	position: relative;
+	background: #fff;
 }
 .mainTitle p{
 	letter-spacing: -0.2px;
@@ -44,6 +46,8 @@ html,body {
 }
 .slick-items {
 	width: 100%;
+	background: #fff;
+	margin-bottom: -10px;
 }
 .slick-items img {
 	width: 100%;
@@ -59,17 +63,25 @@ html,body {
 
 .place {
 	text-align: center;
-	background: url(../images/section2.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	-moz-background-attachment: fixed;
-	-ms-background-attachment: fixed;
-	-o-background-attachment: fixed;
-	-webkit-background-attachment: fixed;
-	background-attachment: fixed;
 	width: 100%;
 	color: #fff;
 	margin-top: 10px;
+}
+.place:before {
+	content: '';
+	display: block;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-image: url(../images/section2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -10;
 }
 .place .container {
 	padding: 40px 0;
@@ -197,6 +209,7 @@ html,body {
 }
 
 footer {
+	background: #fff;
 	text-align: center;
 	padding: 20px 0;
 	font-size: 12px;
