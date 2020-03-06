@@ -5,15 +5,17 @@
 	<meta charset="UTF-8">
 	<title>강민성 개인전</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="author" content="LIGHTIX">
 	<meta name="description" content="강민성의 첫번째 개인전 초대장입니다.">
 	<meta name="keywords" content="강민성, 달항아리, 도자기, 개인전">
-	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/style.css">
-
+	
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900|Noto+Serif+TC:200,300,400,500,600,700,900&display=swap" rel="stylesheet">
-
+	
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	
 	<!-- slick -->
 	<link rel="stylesheet" type="text/css" href="./css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
@@ -24,9 +26,9 @@
 	<script type="text/javascript" src="./js/kakaoMap.js"></script>
 	
 	<!-- aos -->
-	<link href="./css/aos.css" rel="stylesheet">
-	<script src="./js/aos.js"></script>
-	<script>AOS.init();</script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+
 </head>
 
 <body>
@@ -80,32 +82,32 @@
 		</div>
 	</div>
 
-	<div class="invitation" data-aos="fade-up"
-     data-aos-duration="3000">
+	<div class="invitation">
 		<div class="container">
-			<h4 class="invi_title">작가의 말</h4>
+			<h4 class="invi_title" data-aos="fade-up"
+     data-aos-duration="3000">작가의 말</h4>
 			<div class="line"></div>
-			<p>“맨 처음 달항아리를 보았을 때 말로 표현할 수 없는 강한 힘을 느꼈다. 그저 나도 만들어보고 싶고, 가져보고싶고, 궁금하였다. 그래서 나만의 것을 찾으려 만들기 시작했다.”</p>
-			<h5>- 강 민 성 -</h5>
+			<p data-aos="fade-up"
+     data-aos-duration="3000">“맨 처음 달항아리를 보았을 때 말로 표현할 수 없는 강한 힘을 느꼈다. 그저 나도 만들어보고 싶고, 가져보고싶고, 궁금하였다. 그래서 나만의 것을 찾으려 만들기 시작했다.”</p>
+			<h5 data-aos="fade-up"
+     data-aos-duration="3000">- 강 민 성 -</h5>
 		</div>
 	</div>
-	<div class="calendar" data-aos="fade-up"
-     data-aos-duration="3000">
-		<img src="./images/calendar03.jpg" alt="전시 일정">
+	<div class="calendar">
+		<img src="./images/calendar03.jpg" alt="전시 일정"  data-aos="fade-up" data-aos-duration="3000">
 	</div>
-	<div class="location" data-aos="fade-up"
-     data-aos-duration="3000">
+	<div class="location">
 		<div class="container">
-			<h4>오시는 길</h4>
-			<p>서울시 종로구 인사동길 56 갤러리 인사아트 3F</p>
-			<a href="tel:02-734-1333">TEL. 02 734 1333</a>
-			<div class="map"></div>
-			<ul class="subway">
+			<h4  data-aos="fade-up" data-aos-duration="3000">오시는 길</h4>
+			<p  data-aos="fade-up" data-aos-duration="3000">서울시 종로구 인사동길 56 갤러리 인사아트 3F</p>
+			<a href="tel:02-734-1333" data-aos="fade-up" data-aos-duration="3000">TEL. 02 734 1333</a>
+			<div class="map" data-aos="fade-up" data-aos-duration="3000"></div>
+			<ul class="subway" data-aos="fade-up" data-aos-duration="3000">
 				지하철
 				<li><span><img src="./images/subway01.png" alt=""></span>[안국역] 6번출구 이용 2분</li>
 				<li><span><img src="./images/subway02.png" alt=""></span>[종로3가역] 5번출구 이용 9분</li>
 			</ul>
-			<ul class="bus">
+			<ul class="bus"  data-aos="fade-up" data-aos-duration="3000">
 				버스
 				<li><span><img src="./images/bus01.png" alt=""></span>109, 151, 162, 171, 172, 272, 710</li>
 				<li><span><img src="./images/bus02.png" alt=""></span>01A, 03</li>
@@ -113,11 +115,15 @@
 			</ul>
 		</div>
 	</div>
-	<footer data-aos="fade-up"
-     data-aos-duration="3000">
-		<p>&copy; Kang Min Seong</p>
+	<footer>
+		<p data-aos="fade-up" data-aos-duration="3000">&copy; Kang Min Seong</p>
 	</footer>
-	<script src="js/main.js"></script>	
+	
+	
+	<script src="js/main.js"></script>
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init();</script>
 	
 </body>
 </html>
