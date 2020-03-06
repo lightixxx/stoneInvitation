@@ -69,8 +69,8 @@ html,body {
 }
 .place:before {
 	content: '';
-	display: inline-block;
-	margin: 10vh 0;
+	display: block;
+	padding: 10vh 0;
 	height: 80vh;
 	width: 100vw;
 	top: 0;
