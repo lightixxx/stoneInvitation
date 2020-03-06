@@ -1,0 +1,197 @@
+/* font */
+html,body {
+	font-family: 'Noto Sans KR', sans-serif;
+	overflow-x: hidden;
+}
+/* layout */
+.container {
+	padding: 0 30px;
+}
+
+
+
+.contents {
+	margin-top: 30px;
+	position: relative;
+}
+.mainTitle p{
+	letter-spacing: -0.2px;
+	font-size: 3vw;
+	font-weight: 300;
+}
+.mainTitle h2 {
+	letter-spacing: -1px;
+	font-size: 4.4vw;
+}
+.mainTitle h2:after {
+	content: '';
+	display: block;
+	margin-top: 30px;
+	width: 10%;
+	border: 1px solid #ccc;
+}
+.contents h1 {
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 700;
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	font-size: 20vw;
+	color: #fff;
+	text-shadow: 1px 1px 2px #ccc;
+	line-height: .8;
+	z-index: 500;
+}
+.slick-items {
+	width: 100%;
+}
+.slick-items img {
+	width: 100%;
+}
+.slick-items p {
+	text-align: center;
+	color: #ccc;
+	font-size: 3vw;
+	font-weight: 100;
+	padding: 0 0 20px;
+}
+
+
+.place {
+	text-align: center;
+	background: url(../images/section2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+/*	height: 180px;*/
+	color: #fff;
+/*	padding: 50px;*/
+	margin-top: 10px;
+
+}
+.place .container {
+	padding: 40px 0;
+}
+.place .container div {
+	margin: 10px 100px;
+	background: #fff;
+	height: 1px;
+}
+.place h4 {
+	font-weight: 300;
+}
+.place p {
+	font-weight: 300;
+}
+
+.invitation {
+	background: #eee;
+	padding: 15px;
+}
+.invitation .container {
+	background: #fff;
+}
+.invi_title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 4vw;
+	padding: 20px 0;
+	position: relative;
+}
+.invi_title:after {
+	content: '';
+	width: 25px;
+	height: 1px;
+	background: #ccc;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%) rotate(-45deg);
+}
+.invitation p {
+	font-size: 14px;
+	padding: 10px 0 20px;
+	margin-top: 15px;
+	font-weight: 200;
+	text-align: center;
+}
+.invitation h5 {
+	text-align: center;
+	font-weight: 200;
+	padding-bottom: 20px;
+}
+
+.calendar img {
+	width: 100%;
+	vertical-align: text-bottom;
+}
+
+
+.location {
+	background: #eee;
+	padding: 15px;
+}
+.location .container {
+	background: #fff;
+}
+.location h4{
+	font-weight: 400;
+	font-size: 4vw;
+	padding: 20px 0;
+	position: relative;
+	margin-bottom: 20px;
+}
+.location h4:after {
+	content: '';
+	width: 5vw;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+.location p {
+	font-size: 3vw;
+	font-weight: 200;
+}
+.location a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 2.8vw;
+	font-weight: 200;
+}
+.location .map {
+	height: 30vh;
+	background: #ccc;
+	margin: 20px -30px;
+}
+.subway {
+	font-size: 3.5vw;
+	font-weight: 300;
+}
+.subway li{
+	font-size: 2.5vw;
+	margin: 5px 0;
+}
+.subway li img {
+	width: 22px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.bus {
+	padding: 30px 0;
+	font-size: 3.5vw;
+	font-weight: 300;
+}
+.bus li{
+	font-size: 2.5vw;
+	margin: 5px 0;
+}
+.bus li img {
+	width: 22px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
