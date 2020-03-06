@@ -16,9 +16,10 @@ html,body {
 	position: relative;
 	background: #fff;
 }
-.contents:after {
+.contents:before {
 	content: '';
 	width: 100vw;
+	height: 20vh;
 	background: #fff;
 	top: 0;
 	bottom: 0;
@@ -231,6 +232,7 @@ footer {
 footer:after {
 	content: '';
 	width: 100vw;
+	height: 20vh;
 	background: #fff;
 	top: 0;
 	bottom: 0;
