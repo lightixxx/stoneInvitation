@@ -69,11 +69,13 @@ html,body {
 }
 .place:before {
 	content: '';
-	display: block;
-	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
 	width: 100vw;
-	top: 50px;
-	bottom: 50px;
+	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	position: fixed;
